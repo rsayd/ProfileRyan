@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryan Portfolio Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg text-uppercase">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold"></a>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link px-lg-4" href="#">Home</a>
+                        <a class="nav-link px-lg-4" href="#aboutsection">About Me</a>
+                        <a class="nav-link px-lg-4" href="#skillssection">Skills/Projects</a>
+                        <a class="nav-link px-lg-4" href="#contactme">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="main py-5">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-6 py-5">
+                    <h3><small>Ryan Saeedi</small></h3>
+                    <h6>-Full Stack Developer-</h6>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="about" id="aboutsection">
+        <div class="container">
+            <div class="row">
+                <div class="textabout">
+                    <h1>Who am I?</h1>
+                    <p><strong>Developer/Designer</strong></p>
+                    <p>Welcome to my Website! I am from Los Angeles, CA. Attending Coding Dojo currently and planning to
+                        graduate and find a job in the industry! Please take a look at my skills and projects!</p>
+                </div>
+                <img src="./Images/okfinal.jpg" alt="" id="eatsleep">
+            </div>
+        </div>
+    </section>
+    <div class="skills" id="skillssection">
+        <h5><strong>Skills:</strong></h5>
+        <div class="skillspics">
+            <img src="./Images/js.png" class="skillspics" class="img-fluid" alt="...">
+            <img src="./Images/css.png" class="skillspics" class="img-fluid" alt="...">
+            <img src="./Images/html.png" class="skillspics" class="img-fluid" alt="...">
+            <img src="./Images/python real.jpg" class="skillspics" class="img-fluid" alt="...">
+        </div>
+    </div>
+    <!-- Carousel wrapper -->
+    <h5><strong>Projects:</strong></h5>
+    <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+        <!-- Controls -->
+        <div class="d-flex justify-content-center mb-4">
+            <button class="carousel-control-prev position-relative" type="button"
+                data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next position-relative" type="button"
+                data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Inner -->
+        <div class="carousel-inner py-4">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="./Images/codingonscreen.jpg" class="card-img-top" alt="Waterfall" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Profile Page</h5>
+                                    <p class="card-text">
+                                        Assignment recreating wireframe assignment using HTML and CSS.
+                                    </p>
+                                    <a href="https://github.com/rsayd/ProfilePage" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-primary">Click to Preview</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <div class="card">
+                                <img src="./Images/binary code.jpg" class="card-img-top" alt="Sunset Over the Sea" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Liking Likes</h5>
+                                    <p class="card-text">
+                                        Assignment demonstrating understanding of JS functions and HTML/CSS.
+                                    </p>
+                                    <a href="https://github.com/rsayd/LikingLikes" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-primary">Click to Preview</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <div class="card">
+                                <img src="./Images/bluebinary.jpg" class="card-img-top" alt="Sunset over the Sea" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Indentation</h5>
+                                    <p class="card-text">
+                                        Assignment demonstrating understanding of HTML indentation.
+                                    </p>
+                                    <a href="https://github.com/rsayd/Indentation" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-primary">Click to Preview</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                    class="card-img-top" alt="Fissure in Sandstone" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk
+                                        of the card's content.
+                                    </p>
+                                    <a href="#!" class="btn btn-primary">Button</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <div class="card">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp"
+                                    class="card-img-top" alt="Storm Clouds" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk
+                                        of the card's content.
+                                    </p>
+                                    <a href="#!" class="btn btn-primary">Button</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <div class="card">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp"
+                                    class="card-img-top" alt="Hot Air Balloons" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk
+                                        of the card's content.
+                                    </p>
+                                    <a href="#!" class="btn btn-primary">Button</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                            <div class="card">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/187.webp"
+                                    class="card-img-top" alt="Peaks Against the Starry Sky" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk
+                                        of the card's content.
+                                    </p>
+                                    <a href="#!" class="btn btn-primary">Button</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+                            <div class="card">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/188.webp"
+                                    class="card-img-top" alt="Bridge Over Water" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk
+                                        of the card's content.
+                                    </p>
+                                    <a href="#!" class="btn btn-primary">Button</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+                            <div class="card">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/189.webp"
+                                    class="card-img-top" alt="Purbeck Heritage Coast" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk
+                                        of the card's content.
+                                    </p>
+                                    <a href="#!" class="btn btn-primary">Button</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Inner -->
+    </div>
+    <!-- Carousel wrapper -->
+    <h5 id="contactme"><strong>Contact Me:</strong></h5>
+    <div class="container py-4">
+
+        <!-- Bootstrap 5 starter form -->
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+            <!-- Name input -->
+            <div class="mb-3">
+                <label class="form-label" for="name"><strong>Name</strong></label>
+                <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+            </div>
+
+            <!-- Email address input -->
+            <div class="mb-3">
+                <label class="form-label" for="emailAddress"><strong>Email Address</strong></label>
+                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address"
+                    data-sb-validations="required, email" />
+                <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.
+                </div>
+            </div>
+
+            <!-- Message input -->
+            <div class="mb-3">
+                <label class="form-label" for="message"><strong>Message</strong></label>
+                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"
+                    data-sb-validations="required"></textarea>
+                <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+            </div>
+
+            <!-- Form submissions success message -->
+            <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">Form submission successful!</div>
+            </div>
+
+            <!-- Form submissions error message -->
+            <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">Error sending message!</div>
+            </div>
+
+            <!-- Form submit button -->
+            <div class="d-grid">
+                <button class="btn btn-primary btn-lg disabled" id="submitButton"
+                    type="submit"><strong>Submit</strong></button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <!-- SB Forms JS -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
